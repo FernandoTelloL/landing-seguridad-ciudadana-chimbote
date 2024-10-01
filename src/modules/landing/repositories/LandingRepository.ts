@@ -2,5 +2,5 @@
 import { LandingSection } from '../entities/LandingSection';
 
 export interface LandingRepository {
-  getSections(): Promise<LandingSection[]>;
+  getSections(): Promise<LandingSection[]>;  // Método para obtener las secciones
 }

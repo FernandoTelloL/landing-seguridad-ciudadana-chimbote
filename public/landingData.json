@@ -1,33 +1,27 @@
-
 {
   "sections": [
     {
-      "type": "hero",
-      "title": "Bienvenido al Área de Serenazgo",
-      "description": "Trabajamos para mantener tu seguridad.",
-      "image": "/images/hero-image.jpg"
+      "section_id": 1,
+      "section_title": "Bienvenidos",
+      "section_description": "Descripción de la sección de bienvenida",
+      "section_type": "hero",
+      "images": ["/images/hero1.jpg"]
     },
     {
-      "type": "grid",
-      "title": "Nuestro Equipo en Acción",
-      "images": [
-        "/images/photo1.jpg",
-        "/images/photo2.jpg",
-        "/images/photo3.jpg"
-      ]
+      "section_id": 2,
+      "section_title": "Galería de Fotos",
+      "section_description": "Imágenes representativas de nuestros eventos",
+      "section_type": "grid",
+      "images": ["/images/gallery1.jpg", "/images/gallery2.jpg", "/images/gallery3.jpg"]
     },
     {
-      "type": "carousel",
-      "title": "Videos Recientes",
+      "section_id": 3,
+      "section_title": "Videos Informativos",
+      "section_description": "Videos sobre nuestras actividades",
+      "section_type": "carousel",
       "videos": [
-        {
-          "title": "Video 1",
-          "url": "https://www.youtube.com/embed/example1"
-        },
-        {
-          "title": "Video 2",
-          "url": "https://www.youtube.com/embed/example2"
-        }
+        { "title": "Video 1", "url": "https://www.youtube.com/embed/example1" },
+        { "title": "Video 2", "url": "https://www.youtube.com/embed/example2" }
       ]
     }
   ]

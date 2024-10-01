@@ -1,21 +1,9 @@
 // src/modules/landing/entities/LandingSection.ts
-export interface HeroSection {
-  type: 'hero';
+export interface LandingSection {
+  id: number;
   title: string;
   description: string;
-  image: string;
+  type: 'hero' | 'grid' | 'carousel';  // Tipo de sección
+  images?: string[];  // Opcional para secciones con imágenes
+  videos?: { title: string; url: string }[];  // Opcional para secciones con videos
 }
-
-export interface GridSection {
-  type: 'grid';
-  title: string;
-  images: string[];
-}
-
-export interface CarouselSection {
-  type: 'carousel';
-  title: string;
-  videos: { title: string; url: string }[];
-}
-
-export type LandingSection = HeroSection | GridSection | CarouselSection;
