@@ -1,7 +1,8 @@
 // src/modules/landing/usecases/GetLandingSections.ts
-import { ApiLandingAdapter } from '../adapters/ApiLandingAdapter';
+import { LandingAdapter } from '../adapters/LandingAdapter';
 import { LandingSection } from '../entities/LandingSection';
 
 export const GetLandingSections = async (): Promise<LandingSection[]> => {
-  return await ApiLandingAdapter.getSections();
+  const landingAdapter = new LandingAdapter();
+  return await landingAdapter.getSections();
 };
