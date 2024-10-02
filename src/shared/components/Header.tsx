@@ -1,19 +1,28 @@
-// src/shared/components/Header.tsx
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
-const Header = () => {
+export const Header: React.FC = () => {
   return (
-    <header className="bg-blue-500 p-4">
-      <nav>
-        <ul className="flex space-x-4">
-          <li><Link to="/" className="text-white">Home</Link></li>
-          <li><Link to="/about" className="text-white">About</Link></li>
-          <li><Link to="/contact" className="text-white">Contact</Link></li>
-        </ul>
-      </nav>
+    <header className="">
+      <div className='p-6 w-[80vw] mx-auto flex items-center'>
+        <div className=''>
+          <img src="./assets/images/logo.png" alt="logo" className="w-24" />
+        </div>
+        <h1 className="text-lg font-bold">Seguridad Ciudadana Chimbote</h1>
+      </div>
+      <div className='bg-red-personal-color h-20 text-white '>
+        <div className=' flex items-center justify-end w-[80vw] mx-auto p-6 h-[inherit]'>
+          <nav className=" ">
+            <ul className="flex space-x-4 items-center font-[600] font-poppins">
+              <li><NavLink to="/">Inicio</NavLink></li>
+              <li><NavLink to="/about">Sobre Nosotros</NavLink></li>
+            </ul>
+          </nav>
+
+        </div>
+
+      </div>
     </header>
   );
 };
 
-export default Header;

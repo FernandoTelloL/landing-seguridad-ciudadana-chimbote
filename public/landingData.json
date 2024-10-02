@@ -5,14 +5,14 @@
       "section_title": "Bienvenidos",
       "section_description": "Descripción de la sección de bienvenida",
       "section_type": "hero",
-      "images": ["/images/hero1.jpg"]
+      "images": ["./assets/images/hero1.jpg"]
     },
     {
       "section_id": 2,
       "section_title": "Galería de Fotos",
       "section_description": "Imágenes representativas de nuestros eventos",
       "section_type": "grid",
-      "images": ["/images/gallery1.jpg", "/images/gallery2.jpg", "/images/gallery3.jpg"]
+      "images": ["../../assets/images/hero1.jpg", "/images/gallery2.jpg", "/images/gallery3.jpg"]
     },
     {
       "section_id": 3,
