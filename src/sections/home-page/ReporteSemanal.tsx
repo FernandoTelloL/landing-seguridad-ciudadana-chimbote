@@ -109,7 +109,7 @@ export const ReporteSemanal: React.FC = () => {
             640: { slidesPerView: 1, spaceBetween: 20 }, // Pantallas pequeñas (móviles)
             768: { slidesPerView: 2, spaceBetween: 30 }, // Tablets
             1024: { slidesPerView: 3, spaceBetween: 40 }, // Pantallas medianas
-            1280: { slidesPerView: 5, spaceBetween: 50 }, // Pantallas grandes
+            1280: { slidesPerView: 4, spaceBetween: 40 }, // Pantallas grandes
           }}
         >
           {videos.map((video) => (
