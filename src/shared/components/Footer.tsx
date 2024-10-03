@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
               className="h-24 w-auto mb-4"
             />
             <div className="ml-4 text-center">
-              <h2 className="text-3xl font-bold">Serenazgo de Chimbote</h2>
+              <h2 className="text-2xl font-bold">Serenazgo de Chimbote</h2>
               <p className="">Tu seguridad es nuestra prioridad</p>
             </div>
           </div>
