@@ -1,4 +1,5 @@
 
+import { Banner } from "../components/Banner";
 import { HeroSection } from "../components/HeroSection";
 import { EmergencyNumbers } from "../sections/home-page/EmergencyNumbers";
 import { ReporteSemanal } from "../sections/home-page/ReporteSemanal";
@@ -15,6 +16,7 @@ export const HomePage: React.FC = () => {
       </div> */}
       <UltimasNoticias />
       <EmergencyNumbers />
+      <Banner backgroundImage="./assets/images/bg-blue.jpg" pngImage="./assets/images/sereno-caricatura.png" />
       <ReporteSemanal />
 
     </div>
