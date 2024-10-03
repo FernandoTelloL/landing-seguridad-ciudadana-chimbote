@@ -72,7 +72,7 @@ export const Footer: React.FC = () => {
 
       {/* Franja de seguridad ciudadana */}
       <div className=" bg-red-personal-color text-white text-center py-4">
-        <p className="text-lg font-semibold">SEGURIDAD CIUDADANA DE CHIMBOTE - TODOS LOS DERECHOS RESERVADOS -2024</p>
+        <p className="text-md font-semibold">SEGURIDAD CIUDADANA DE CHIMBOTE - TODOS LOS DERECHOS RESERVADOS -2024</p>
       </div>
     </footer>
   );
