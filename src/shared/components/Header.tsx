@@ -13,11 +13,27 @@ export const Header: React.FC = () => {
 
       <div className='w-[60%] flex text-text-primary-color '>
 
-        <div className=' flex items-center justify-end  mx-auto w-full p-6 h-[inherit]'>
-          <nav className=" ">
+        <div className="flex items-center justify-end mx-auto w-full p-6 h-[inherit]">
+          <nav>
             <ul className="flex space-x-4 items-center font-[600] font-poppins">
-              <li><NavLink to="/" className='hover:text-red-personal-color transition-all duration-300'>Inicio</NavLink></li>
-              <li><NavLink to="/about" className='hover:text-red-personal-color transition-all duration-300'>Sobre Nosotros</NavLink></li>
+              <li>
+                <NavLink
+                  to="/"
+                  className="relative group hover:text-red-personal-color transition-all duration-300"
+                >
+                  Inicio
+                  <span className="absolute left-0 bottom-[-4px] block w-full h-[2px] bg-red-personal-color scale-x-0 transition-transform duration-500 ease-in-out group-hover:scale-x-100"></span>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/about"
+                  className="relative group hover:text-red-personal-color transition-all duration-300"
+                >
+                  Sobre Nosotros
+                  <span className="absolute left-0 bottom-[-4px] block w-full h-[2px] bg-red-personal-color scale-x-0 transition-transform duration-500 ease-in-out group-hover:scale-x-100"></span>
+                </NavLink>
+              </li>
             </ul>
           </nav>
         </div>
