@@ -75,10 +75,10 @@ export const UltimasNoticias: React.FC = () => {
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <p className="py-2 px-6 w-fit rounded-lg text-xs my-2 bg-red-personal-color text-white font-bold ">{noticia.fecha}</p>
+              <p className="py-2 px-6 w-fit rounded-lg text-xs my-2 bg-red-personal-color text-text-primary-color font-bold shadow-lg">{noticia.fecha}</p>
               <h3 className="text-xl font-bold my-4 ">{noticia.titulo.toUpperCase()}</h3>
               <p className="text-sm leading-6">{noticia.resumen}</p>
-              <Link to={`/noticia/${noticia.id}`} className=" block text-sm font-extrabold underline-offset-4 mt-4 text-red-personal-color underline">Leer más</Link>
+              <Link to={`/noticia/${noticia.id}`} className=" block text-sm font-extrabold underline-offset-4 mt-4 text-green-700 font-poppins underline">Leer más</Link>
             </div>
           </a>
         ))}

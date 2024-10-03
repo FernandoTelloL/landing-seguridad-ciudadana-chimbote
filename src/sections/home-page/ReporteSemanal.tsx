@@ -89,7 +89,7 @@ const videos = [
 
 export const ReporteSemanal: React.FC = () => {
   return (
-    <section className="py-20 ">
+    <section className="mt-24 pt-14 pb-20 bg-slate-100">
       <div className='w-[80vw] mx-auto'>
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">REPORTE SEMANAL</h2>
 
@@ -121,7 +121,7 @@ export const ReporteSemanal: React.FC = () => {
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-4">
-                    <h3 className="text-lg font-bold text-gray-800 mb-2">{video.title}</h3>
+                    <h3 className="text-base font-bold text-gray-800 mb-2">{video.title}</h3>
                     <p className="text-sm text-gray-500">{video.date}</p>
                   </div>
                 </a>

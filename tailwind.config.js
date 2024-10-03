@@ -11,7 +11,8 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
-        'red-personal-color': '#c1282a',
+        // 'red-personal-color': '#c1282a',
+        'red-personal-color': '#FCB900',
         'text-primary-color': '#383838',
         'title-color': '#000000',
         'alternative-bg-color': '#FFBE00',
