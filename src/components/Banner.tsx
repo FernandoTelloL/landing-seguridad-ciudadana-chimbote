@@ -16,13 +16,13 @@ export const Banner: React.FC<BannerProps> = ({ backgroundImage, pngImage }) => 
         {/* Columna Izquierda */}
         <div className="md:w-[55%] text-white mb-8 md:mb-0">
           <div className=" p-10 rounded-lg">
-            <h1 className="text-6xl font-bold mb-4">Serenazgo de Chimbote</h1>
-            <p className="text-2xl mb-6">Un cuerpo dedicado a velar por la seguridad y el orden en la ciudad, protegiendo a los ciudadanos y combatiendo la delincuencia.</p>
-            <p className="text-2xl italic font-semibold mb-8">"Protegiendo tu seguridad, cada día más cerca de ti."</p>
+            <h1 className="text-5xl font-bold mb-4">Serenazgo de Chimbote</h1>
+            <p className="text-xl mb-6">Un cuerpo dedicado a velar por la seguridad y el orden en la ciudad, protegiendo a los ciudadanos y combatiendo la delincuencia.</p>
+            <p className="text-xl italic font-semibold mb-8">"Protegiendo tu seguridad, cada día más cerca de ti."</p>
 
             {/* Sección de Principios */}
             <div>
-              <h2 className="text-4xl font-bold mb-4 text-red-personal-color">PRINCIPIOS</h2>
+              <h2 className="text-3xl font-bold mb-4 text-red-personal-color">PRINCIPIOS</h2>
               <ul className="flex">
                 <div className='mr-4'>
                   <li className="flex items-center mb-6">
