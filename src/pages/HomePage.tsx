@@ -6,6 +6,7 @@ import { Organigrama } from "../sections/home-page/Organigrama";
 import { ReporteSemanal } from "../sections/home-page/ReporteSemanal";
 import { UltimasNoticias } from "../sections/home-page/UltimasNoticias";
 import { ScrollToTop } from "../shared/components/ScrollToTop";
+import WhatsAppWidget from "../shared/components/WhatsAppWidget";
 
 
 export const HomePage: React.FC = () => {
@@ -23,6 +24,7 @@ export const HomePage: React.FC = () => {
       <ReporteSemanal />
 
       <ScrollToTop />
+      <WhatsAppWidget />
     </div>
   );
 };
