@@ -5,6 +5,7 @@ import { EmergencyNumbers } from "../sections/home-page/EmergencyNumbers";
 import { Organigrama } from "../sections/home-page/Organigrama";
 import { ReporteSemanal } from "../sections/home-page/ReporteSemanal";
 import { UltimasNoticias } from "../sections/home-page/UltimasNoticias";
+import { ScrollToTop } from "../shared/components/ScrollToTop";
 
 
 export const HomePage: React.FC = () => {
@@ -21,6 +22,7 @@ export const HomePage: React.FC = () => {
       <Organigrama />
       <ReporteSemanal />
 
+      <ScrollToTop />
     </div>
   );
 };
