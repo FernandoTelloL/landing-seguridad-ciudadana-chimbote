@@ -9,14 +9,14 @@ interface BannerProps {
 export const Banner: React.FC<BannerProps> = ({ backgroundImage, pngImage }) => {
   return (
     <section
-      className="bg-cover bg-center py-16 my-16"
+      className="bg-cover bg-center py-10 my-10"
       style={{ backgroundImage: `url(${backgroundImage})` }} // Fondo con imagen personalizada
     >
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
         {/* Columna Izquierda */}
         <div className="md:w-[55%] text-white mb-8 md:mb-0">
           <div className=" p-10 rounded-lg">
-            <h1 className="text-5xl font-bold mb-4">Serenazgo de Chimbote</h1>
+            <h1 className="text-5xl font-bold mb-4 text-red-personal-color">Serenazgo de Chimbote</h1>
             <p className="text-xl mb-6">Un cuerpo dedicado a velar por la seguridad y el orden en la ciudad, protegiendo a los ciudadanos y combatiendo la delincuencia.</p>
             <p className="text-xl italic font-semibold mb-8">"Protegiendo tu seguridad, cada día más cerca de ti."</p>
 
@@ -28,15 +28,19 @@ export const Banner: React.FC<BannerProps> = ({ backgroundImage, pngImage }) => 
                   <li className="flex items-center mb-6">
                     <FaShieldAlt className="text-4xl mr-3 text-red-personal-color" />
                     <div>
-                      <h3 className="text-xl font-semibold">Protección</h3>
-                      <p className="text-base">Resguardar a los ciudadanos contra cualquier amenaza.</p>
+                      <p className="text-base">Proteger la integridad física y patrimonial de los ciudadanos.</p>
                     </div>
                   </li>
                   <li className="flex items-center">
                     <FaHandsHelping className="text-4xl mr-3 text-red-personal-color" />
                     <div>
-                      <h3 className="text-xl font-semibold">Servicio Comunitario</h3>
-                      <p className="text-sm">Ayudar a la comunidad y fomentar la cooperación.</p>
+                      <p className="text-sm">Prevenir y combatir la delincuencia.</p>
+                    </div>
+                  </li>
+                  <li className="flex items-center mt-4">
+                    <FaPeopleArrows className="text-4xl mr-3 text-red-personal-color" />
+                    <div>
+                      <p className="text-sm">Mantener el orden público, la tranquilidad y la paz social.</p>
                     </div>
                   </li>
                 </div>
@@ -44,15 +48,13 @@ export const Banner: React.FC<BannerProps> = ({ backgroundImage, pngImage }) => 
                   <li className="flex items-center mb-6">
                     <FaExclamationTriangle className="text-4xl mr-3 text-red-personal-color" />
                     <div>
-                      <h3 className="text-xl font-semibold">Prevención</h3>
-                      <p className="text-sm">Prevenir incidentes y evitar la delincuencia en cualquier zona de la ciudad.</p>
+                      <p className="text-sm">Preventivo y disuasivo en apoyo a la PNP.</p>
                     </div>
                   </li>
                   <li className="flex items-center">
                     <FaPeopleArrows className="text-4xl mr-3 text-red-personal-color" />
                     <div>
-                      <h3 className="text-xl font-semibold">Integridad</h3>
-                      <p className="text-sm">Mantener siempre altos estándares morales y éticos.</p>
+                      <p className="text-sm">Como órgano de línea de apoyo a las diferentes áreas de la MPS.</p>
                     </div>
                   </li>
                 </div>
