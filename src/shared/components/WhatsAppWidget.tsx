@@ -12,7 +12,7 @@ const WhatsAppWidget: React.FC = () => {
 
   return (
     <div
-      className="fixed bottom-4 right-4 font-poppins bg-green-700 text-white text-sm flex items-center space-x-2 py-3 px-4 rounded-full shadow-lg cursor-pointer transition-transform transform hover:scale-105 duration-200"
+      className=" z-50 fixed bottom-4 right-4 font-poppins bg-green-700 text-white text-sm flex items-center space-x-2 py-3 px-4 rounded-full shadow-lg cursor-pointer transition-transform transform hover:scale-105 duration-200"
       onClick={handleClick}
     >
       <FaWhatsapp className="w-6 h-6" />
